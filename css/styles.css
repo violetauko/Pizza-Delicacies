@@ -43,3 +43,21 @@
     margin-bottom: 2%;
     font-family: 'Fugaz One', cursive;
 }
+#pizza, #topping, #crust, #size{
+  width: 30%;
+  padding: 1% 1%;
+  margin: 1%;
+  box-sizing: border-box;
+    
+}
+#order{
+    background-image: url("/assets/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    color:white ;
+    padding-left: 5%;
+    font-size: 1.3em;
+    font-family: 'Fugaz One', cursive;
+}
+
+
