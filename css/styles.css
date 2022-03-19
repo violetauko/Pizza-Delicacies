@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-.body{
-    background: #081829;
-    
-}
-#nav {
-    padding: 1% 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    position: absolute;
-    z-index: 99;
-    transition: all 0.4s ease-in-out;
 
+#nav {
+     padding: 1% 0;
+    width: 100%;
+    background-color: #081829; 
+   
 }
 #piz{
-    color: #333;
+    color: #f1f1f1;
     font-size: 3em;
     font-family: 'Alfa Slab One', cursive;
 }
@@ -24,4 +18,13 @@
 }
 #navbarSupportedContent{
     text-align: center;
+    
 }
+ #home{
+    background-image: url("/assets/brenna-huff-22Vt7JIf7ZI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+
+    
+} 
+
