@@ -116,31 +116,62 @@
   <label for="topping">select your Topping:</label>
   <select id="topping" name="topping">
     <option value=""></option>
-    <option value="brocoli">Brocoli @sh50</option>
-    <option value="pepperoni">pepperoni @50</option>
+    <option value="brocoli">Brocoli @sh.50</option>
+    <option value="pepperoni">pepperoni @sh.50</option>
     <option value="beef">Beef @50</option>
-    <option value="extra cheese">Extra cheese @50</option>
-    <option value="mashroom">Mashroom @50</option>
-    <option value="becon">Becon @sh50</option>
+    <option value="extra cheese">Extra cheese @sh.50</option>
+    <option value="mashroom">Mashroom @sh.50</option>
+    <option value="becon">Becon @sh.50</option>
   </select>
   <label for="crust">select your prefered crust:</label>
   <select id="crust" name="crust">
     <option value=""></option>
-    <option value="crispy">Crispy @200</option>
-    <option value="stuffed">Stuffed @sh140</option>
-    <option value="gluten-free">Glutten-free @sh170</option>
+    <option value="crispy">Crispy @sh.200</option>
+    <option value="stuffed">Stuffed @sh.140</option>
+    <option value="gluten-free">Glutten-free @sh.170</option>
   </select>
 
   <label for="size">select your prefered size:</label>
   <select id="size" name="size">
     <option value=""></option>
-    <option value="small">Small @sh600</option>
-    <option value="medium">Mediun @sh800</option>
-    <option value="large">Large @sh1200</option>
-    <option value="extra-large">Extra-large @sh1500</option>
+    <option value="small">Small @sh.600</option>
+    <option value="medium">Mediun @sh.800</option>
+    <option value="large">Large @sh.1200</option>
+    <option value="extra-large">Extra-large @sh.1500</option>
   </select>
-   </div>
+  <label for="number">Number of Pizza's</label>
+  <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+  <button type="submit" class="btn btn-success checkout" id="checkout">
+    Checkout
+</button>
 </form>
-       <!-- end menu -->
+<!-- end menu -->
+<section class="container">
+<div class="yourOrder" id="yourOder">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">pizza</th>
+      <th scope="col">topping</th>
+      <th scope="col">crust</th>
+      <th scope="col">size</th>
+      <th scope="col">number</th>
+      <th scope="col">total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+</section>
 </body>
 </html>
