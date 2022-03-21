@@ -81,10 +81,6 @@ li {
     background-size: cover;
 }
 
-.contact-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.6);
-}
 
 input[type="email"] {
     background: transparent;
