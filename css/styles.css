@@ -76,7 +76,7 @@ li {
 }
 
 .contacts {
-    background-image: url("/assets/jonas-kakaroto-zlKdLdMREtE-unsplash.jpg");
+    background-image: url("assets/jonas-kakaroto-zlKdLdMREtE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,7 +115,7 @@ input[type="email"] {
 
 .data {
     height: inherit;
-    background-image: url("/assets/maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
+    background-image: url("assets/maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
     border-radius: 10px;
 }
 
@@ -152,7 +152,7 @@ h4 {
  .order-overlay {
     height: inherit;
     padding: 20px;
-    background-image: url("/assets/joanna-kosinska-mjC9apK53a8-unsplash.jpg");
+    background-color: antiquewhite;
     border-radius: 20px;
 } 
 
@@ -180,7 +180,7 @@ h4 {
     font-family: 'Alfa Slab One', cursive;
 }
 .landing {
-    background-image: url("/assets/anthony-duran-QbOvrpDU1KA-unsplash.jpg");
+    background-image: url("assets/anthony-duran-QbOvrpDU1KA-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
