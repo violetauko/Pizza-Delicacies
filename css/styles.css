@@ -2,105 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
-
-
-/* #nav {
-     padding: 1% 0;
-    width: 100%;
-    background-color: #081829; 
-   
-}
-#piz{
-    color: #f1f1f1;
-    font-size: 3em;
-    font-family: 'Alfa Slab One', cursive;
-}
-#piz >span{
-    color: crimson;
-    font-family: 'Smokum', cursive;
-}
-#navbarSupportedContent{
-    text-align: center;
-    
-}
- #home{
-    background-image: url("/assets/anthony-duran-QbOvrpDU1KA-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    color: #f1f1f1;
-    padding: 15%;
-    margin-bottom: 2%;
-
-} 
-#about{
-    background-color: #555;
-    color: white;
-    padding: 5%;
-    font-family: 'Fugaz One', cursive; 
-}
-#veg, #meat, #pep, #cheese{
-    margin: 5%;
-    margin-bottom: 2%;
-    font-family: 'Fugaz One', cursive;
-}
-#pizza, #topping, #crust, #size, #number{
-  width: 50%;
-  padding: 0.5%;
-  margin: 1%;
-  box-sizing: border-box;
-    
-}
-#order{
-    background-color: #081829;
-    margin-left: 30%;
-    border-radius: 20%;
-    width: 50%;
-    color:white ;
-    padding-left: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 1.1em;
-    font-family: 'Fugaz One', cursive;
-}
-#Place-Order{
-    width: 10%;
-    border-radius: 30%;
-    background-color: crimson;
-    margin-left: 50%;
-}
-#yourOder{
-    margin-top: 2%;
-    text-align: center;
-}
-#checkout{
-    width: 10%;
-    margin-top: 10%;
-    border-radius: 30%;
-    background-color: crimson;
-    margin-left: 50%;
-    color: #f1f1f1;
-}
-h3{
-    text-align: center;
-}
-#pickup, #deliver{
-    background-color: crimson;
-    color: #f1f1f1;
-    border-radius: 30%;
-
-}
-#delivery-details{
-    color: #f1f1f1;
-    background-color: crimson;
-    border-radius: 30%;
-    margin-top: 10%;
-
-}
-#name, #location, #phone{
-    margin-top: 2%;
-    
-} */
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -110,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* color: #ffffff; */
 }
 .navi {
     float: right;
@@ -215,7 +115,7 @@ input[type="email"] {
 
 .data {
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/assets/maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
     border-radius: 10px;
 }
 
@@ -409,7 +309,7 @@ figure img {
         height: 650px;
     }
 
-    .piz-pap {
+    #pizza {
         font-size: 50px;
     }
 
@@ -422,7 +322,7 @@ figure img {
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: crimson !important;
+        background: #081829 !important;
     }
 
 }
