@@ -62,6 +62,10 @@ li {
 #lab{
     color: #000;
     font-family: 'Fugaz One', cursive;
+
+}
+#labo{
+    font-size: 1.4em;
 }
 
 #list li {
@@ -111,7 +115,7 @@ input[type="email"] {
 
 .data {
     height: inherit;
-    background-image: url("../assets/maria-orlova-Q3Ea7QQQ6MA-unsplash.jpg");
+    background-color: #081829;
     border-radius: 10px;
 }
 
@@ -121,7 +125,7 @@ input[type="email"] {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color:#f1f1f1;
+    background-color:#081829;
     outline: none;
     padding: 12.5px 13px;
     border: none;
