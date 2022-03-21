@@ -115,13 +115,13 @@ input[type="email"] {
     border-radius: 10px;
 }
 
-.click-me, button[type=submit], .deliver, .delivernot {
+#click, button[type=submit], .deliver, .delivernot {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color:#081829;
+    background-color:#f1f1f1;
     outline: none;
     padding: 12.5px 13px;
     border: none;
