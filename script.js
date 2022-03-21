@@ -245,35 +245,9 @@ $(function () {
         $('.deliver').hide(1000);
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
-        
-        
-        $("button#place-order").click(function(event){
-            event.preventDefault();
-      
-            $("#cdata-overlay").hide();
-            $("button#place-order").hide();
 
-            
-            let name = $("input#name").val();
-            let phone = $("input#phone").val();
-            let location = $("input#location").val();
-      
-            if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
         
-              alert(name+", We have recieved your order and it will be delivered to you at "+location_);
-              
-            }
-            else {
-              alert("Please fill in the details for delivery!");
-              
-            }
-        
-          });
-         event.preventDefault();
-        });
-
-
-    });
+    })
 
 
     // Pick Up
@@ -285,5 +259,27 @@ $(function () {
     $(function () {
         $.scrollify.move('#sum-order');
     });
+});
+
+function placeOrder(event){
+    var name =document.getElementById('name').value;
+    var phone =document.getElementById('phone').value;
+    var location =document.getElementById('location').value;
+
+    if(name==""||name==null){
+        alert('please input  your name!')
+    }
+    else if(phone==""||phone==null){
+        alert('please input phone number!')
+    }
+    else if(location==""||location==null){
+        alert('please input location of delivery!')
+    }
+    else{
+        alert(name +" your order has been received.Your order will be ready in 15mins.")
+    }
+    event.preventDefault()
+
+}
 
 

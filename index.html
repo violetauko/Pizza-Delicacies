@@ -98,7 +98,7 @@
             <form class="col-sm-6 offset-sm-3 text-center">
               <h1 id="lab">order here</h1>
               <div>
-                <label id="lab">Pick your Flavour:</label>
+                <label id="labo">Pick your Flavour:</label>
                 <select class="custom-select custom-select-md mb-3 flavour" required>
                   <option value=""></option>
                   <option value="veggie">Veggie</option>
@@ -108,7 +108,7 @@
                 </select>
               </div>
               <div>
-                <label id="lab">Chose your preferred Size: </label>
+                <label id="labo">Chose your preferred Size: </label>
                 <select class="custom-select custom-select-md mb-3" id="size" required>
                   <option value=""></option>
                   <option value="small">Small @sh.300</option>
@@ -118,7 +118,7 @@
                 </select>
                 </div>
                 <div>
-                <label id="lab">Choose your favorite Crust:</label>
+                <label id="labo">Choose your favorite Crust:</label>
                 <select class="custom-select custom-select-md mb-3" id="crust" required>
                   <option value=""></option>
                   <option value="crispy">Crispy @sh.200</option>
@@ -127,7 +127,7 @@
                 </select>
                 </div>
                 <div>
-                <label id="lab">Select Your favourite Toppings</label>
+                <label id="labo">Select Your favourite Toppings</label>
                 <select class="custom-select custom-select-md mb-3" id="toppings" required>
                   <option value=""></option>
                   <option value="brocoli">Brocoli @sh.50</option>
@@ -169,9 +169,8 @@
                 <input type="text" id="name"class="form-control cdata" placeholder="Enter your Name:">
                 <input type="text" id="phone" class="form-control cdata" placeholder="Enter your phone number: ">
                 <input type="text" id="location" class="form-control cdata" placeholder="Enter the location: ">
+                <button class="btn" type="submit" id="submit"  onClick="placeOrder()">Place order</button>
             </form>
-                <button class="btn " id="place order" >Place order</button>
-
             <div class="col-sm-3"></div>
         </div>
     </div>
@@ -188,7 +187,7 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-5 subs">
                 <h1 class="text-white text-center"> Call Us </h1>
-                <p class="text-center">+254 795 522373</p>
+                <p class="text-center text-white">+254 795 522373</p>
                 <form>
                     <div class="email-info">
                         <div class="form-group fill-all-form">
@@ -197,12 +196,12 @@
                         </div>
                     </div>
                     <div class=" email-info text-center">
-                        <button class="btn click-me" onclick="subscribe();">Subscribe</button>
+                        <button  id="click" class="btn click-me" onClick="send();">Send</button>
                     </div>
                 </form>
             </div>
             <div class="col-sm-5">
-                <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+                <h4 class="text-center text-white">Please give us your experience through sending us an email</h4>
             </div>
             <div class="col-sm-1"></div>
         </div>
