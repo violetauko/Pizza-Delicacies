@@ -253,7 +253,7 @@ $(function () {
             $("#cdata-overlay").hide();
             $("button#place-order").hide();
 
-            function validate(name,phone,location){
+            
             let name = $("input#name").val();
             let phone = $("input#phone").val();
             let location = $("input#location").val();
@@ -267,7 +267,7 @@ $(function () {
               alert("Please fill in the details for delivery!");
               
             }
-        }
+        
           });
          event.preventDefault();
         });
