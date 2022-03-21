@@ -246,34 +246,7 @@ $(function () {
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
         
-        
-        $("button#place-order").click(function(event){
-            event.preventDefault();
-      
-            $("#cdata-overlay").hide();
-            $("button#place-order").hide();
-
-            
-            let name = $("input#name").val();
-            let phone = $("input#phone").val();
-            let location = $("input#location").val();
-      
-            if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
-        
-              alert(name+", We have recieved your order and it will be delivered to you at "+location_);
-              
-            }
-            else {
-              alert("Please fill in the details for delivery!");
-              
-            }
-        
-          });
-         event.preventDefault();
-        });
-
-
-    });
+    })
 
 
     // Pick Up
@@ -285,5 +258,6 @@ $(function () {
     $(function () {
         $.scrollify.move('#sum-order');
     });
+});
 
 
