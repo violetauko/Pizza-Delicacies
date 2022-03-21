@@ -222,6 +222,8 @@ $(function () {
         $('#list').slideDown();
         $('.deliver').show(1000);
         $('.delivernot').show(1000);
+        $('#place').hide();
+
 
         $('#list').text(" ");
         $("#list").append("<br>" + "Flavour :   " 
@@ -243,9 +245,16 @@ $(function () {
         $('.deliver').hide(1000);
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
+        
+        
+        $("#place order").click(function () {
+            $('.cdata-overlay').slideUp();
+            $('.btn').text("yeud").show();
+        });
+
+
     });
-    
-});
+
 
     // Pick Up
     $(".delivernot").click(function () {
@@ -256,4 +265,5 @@ $(function () {
     $(function () {
         $.scrollify.move('#sum-order');
     });
+});
 
