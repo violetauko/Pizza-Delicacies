@@ -8,7 +8,7 @@ This is a pizza delivery app that allows the user to select the pizza type, size
 ## By 
 [Violet Auko]
 
-##Description
+## Description
 
 This is a pizza delivery app that allows the user to select the pizza type, size, crust and toppings then the application calculates the price plus delivery fee
 
@@ -47,4 +47,4 @@ BOOTSTRAP
 
 MIT license
 
-# Copyright (c) 2022 Violet Auko
+## Copyright (c) 2022 Violet Auko
